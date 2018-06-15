@@ -1,0 +1,35 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "0.1.0",
+    "tasks": [
+        {
+            "taskName": "build",
+            "command": "make",
+            "isBuildCommand": true,
+            "showOutput": "always",
+            "args": []
+        },
+        {
+            "taskName": "clean",
+            "command": "make",
+            "isBuildCommand": true,
+            "showOutput": "always",
+            "args": ["clean"]
+        },
+        {
+            "taskName": "uplaod",
+            "command": "/Applications/SEGGER/JLink/JLinkExe",
+            "args": [
+                "-device",
+                "STM32F103RC",
+                "-if",
+                "SWD",
+                "-speed",
+                "4000",
+                "-CommanderScript",
+                "JLinkCommandFile.jlink"
+            ]
+        }
+    ]
+}

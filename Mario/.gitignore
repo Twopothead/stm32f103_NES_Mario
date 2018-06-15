@@ -1,0 +1,7 @@
+# 忽略指定文件
+/stm32f103rct6.map
+/stm32f103rct6.hex
+/stm32f103rct6.elf
+
+# 只忽略当前目录下的output文件和目录，子目录的output不在忽略范围内
+/output
