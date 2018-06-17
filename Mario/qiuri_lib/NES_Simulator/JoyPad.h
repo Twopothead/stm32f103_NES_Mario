@@ -35,6 +35,7 @@ void NES_JoyPadReset(void);
 void NES_JoyPadDisable(void);
 uint8 NES_GetJoyPadVlaue(int JoyPadNum);
 
+JoyPadType JoyPad[2];
 
 #endif /* _JOYPAD_H_*/
   /**

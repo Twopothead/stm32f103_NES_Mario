@@ -26,6 +26,7 @@
 static u8 fac_us = 0;  //us延时倍乘数
 static u16 fac_ms = 0; //ms
 
+//总共：3个字符集（12*12、16*16和24*24），用户可以自行新增其他分辨率的字符集。
 extern const unsigned char asc2_1206[95][12];
 extern const unsigned char asc2_1608[95][16];
 extern const unsigned char asc2_2412[95][36];
@@ -330,10 +331,13 @@ int main(void)
   // LCD_Clear(YELLOW);
   // gui_fill_circle(100,400,180,RED);
   
-  nes_main();
+ nes_main();
 
 // LCD_Clear(GREEN);
-
+ // u32 tempp=10;
+	//POINT_COLOR=RED;
+	// LCD_ShowNum(80,50,tempp,32,32);
+	//LCD_ShowNum(116,130,520,3,16);//显示键值
 tp_dev.init();
 ///////////////////////////////////////////////////
 // #include "nes_main.h"

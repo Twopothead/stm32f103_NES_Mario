@@ -700,8 +700,8 @@ void NES_RenderLine(int y_axes)
 		}
 	}
 	/*完成扫描，将行显示缓存写入LCD*/
-	NES_LCD_DisplayLine(y_axes*2, Buffer_scanline);	
-	NES_LCD_DisplayLine(y_axes*2+1, Buffer_scanline);								//启动LCD显示一行，查询或DMA传送
+	NES_LCD_DisplayLine(y_axes*2+150, Buffer_scanline);	
+	NES_LCD_DisplayLine(y_axes*2+151, Buffer_scanline);								//启动LCD显示一行，查询或DMA传送
 }
 
 /*

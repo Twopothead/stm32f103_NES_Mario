@@ -65,7 +65,6 @@ device STM32F103RC
 #loadbin /home/curie/ARM/pro/infoNES_on_stm32/OBJ/LED.hex 0x08000000
 #loadbin /home/curie/ARM/pro/STM32_NES_ppugba/STM32_NES.hex 0x08000000 
 #loadbin /home/curie/gitcode/stm32f103_blink/blink/stm32f103rct6.hex 0x08000000
-#loadbin /home/curie/ARM/pro/马里奥/Mario/stm32f103rct6.hex 0x08000000
 loadbin /home/curie/gitcode/stm32f103_NES_Mario/Mario/stm32f103rct6.hex 0x08000000
 g
 qc

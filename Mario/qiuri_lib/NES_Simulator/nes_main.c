@@ -22,6 +22,11 @@
 uint8 Continue = TRUE;//初始化为真
 int FrameCnt;
 
+
+#include "fuck_joypad.h"
+
+
+
 /* NES 帧周期循环*/   
 void NesFrameCycle(void)
 {
@@ -83,8 +88,12 @@ void NesFrameCycle(void)
 //		MapperVSync();
 		
 		/*读取控制器JoyPad状态,更新JoyPad控制器值*/
-//		NES_JoyPadUpdateValue();	 //systick 中断读取按键值
+		// NES_JoyPadUpdateValue();	 //systick 中断读取按键值
 
+		fuck_NES_JoyPadUpdateValue();	 //systick 中断读取按键值
+
+
+		//LCD_ShowNum(80,50,32,90,24);
 		/*设置循环标志，是否退出循环*/
 //		if(){
 //		 	Continue = FALSE;
