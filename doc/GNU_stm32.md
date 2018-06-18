@@ -2,7 +2,7 @@
 
 #### Copyright (C) 2018  Frank Curie(邱日)
 
-![](doc/pics/NES_emulator_Mario.jpg)
+![](pics/NES_emulator_Mario.jpg)
 
 we transplanted a NES( [Nintendo Entertainment System](https://wiki.nesdev.com/w/index.php/Nesdev)) emulator to our Alientek Worship(v3) stm32f103zet6 development board .This is a Super Mario Bros demo.
 
@@ -32,7 +32,7 @@ Firstly,you should have an stm32f103 development board. I purchased a Worship ST
 
 **正点原子战舰STM32F103ZET6开发板**
 
-![](doc/pics/alientek_worship_stm32f103zet6.png)
+![](pics/alientek_worship_stm32f103zet6.png)
 
 - http://www.openedv.com/posts/list/13912.htm
 
@@ -44,7 +44,7 @@ SEGGER J-Link from [Taobao](https://item.taobao.com/item.htm?spm=a230r.1.14.8.55
 
 - http://www.stmcu.org/module/forum/thread-603768-1-1.html
 
-![](doc/pics/Jlink_v8_for_arm_cortex_M4-M0.png)
+![](pics/Jlink_v8_for_arm_cortex_M4-M0.png)
 
 --------------
 
