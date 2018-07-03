@@ -77,7 +77,7 @@ We should use its firmware library.
 
 # GNU Toolchain for ARM 
 
-GCC for ARM and J-link related software provided by segger Company is necessary.
+GCC for ARM and J-link related software provided by segger Company are necessary.
 
 - install arm-gcc
 ```sh
@@ -108,7 +108,7 @@ sudo apt-get install libusb-1.0-0-dev
 
 You can use it as a template under Ubuntu if you like. :)
 
-Furthermore, we transplant a NES emulator to our Alientek Worship stm32f103zet6 development board ,(
+Furthermore, we transplant a NES emulator to our Alientek Worship stm32f103zet6 development board .
 
 NES is short for [Nintendo Entertainment System](https://wiki.nesdev.com/w/index.php/Nesdev))using Super Mario Bros as a demo.You can control Mario with a joypad.
 

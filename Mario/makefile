@@ -79,7 +79,7 @@ INCLUDE := -I"include" \
 
 # 自动化完成
 CFLAGS += $(FEATHER) $(INCLUDE)
-CFLAGS += -std=gnu99
+#CFLAGS += -std=gnu99
 
 C_SRC := $(filter %.c,$(SOURCE))
 C_OBJS := $(C_SRC:%.c=%.o)
