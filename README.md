@@ -6,6 +6,8 @@
 
 we transplanted a NES( [Nintendo Entertainment System](https://wiki.nesdev.com/w/index.php/Nesdev)) emulator to our Alientek Worship(v3) stm32f103zet6 development board .This is a Super Mario Bros demo.
 
+**Video online at [bilibili.com@av26701909](http://www.bilibili.com/video/av26701909?share_medium=android&share_source=qq&bbid=0AE5FB35-77DB-4F3B-9C9A-A570CB5A80E218586infoc&ts=1531720979148)**
+
 ### Usage
 
 - git clone https://github.com/Twopothead/stm32f103_NES_Mario
