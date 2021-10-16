@@ -30,7 +30,7 @@ we transplanted a NES( [Nintendo Entertainment System](https://wiki.nesdev.com/w
 
 ### STM32f103 development board?
 
-Firstly,you should have an stm32f103 development board. I purchased a Worship STM32f103 development board produced by alientek(**正点原子**) Company.
+Firstly,you should have a stm32f103 development board. I purchased a Worship STM32f103 development board produced by alientek(**正点原子**) Company.
 
 **正点原子战舰STM32F103ZET6开发板**
 
